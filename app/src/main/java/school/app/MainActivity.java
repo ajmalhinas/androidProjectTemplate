@@ -1,4 +1,4 @@
-package template.app;
+package school.app;
 
 
 import android.content.Intent;
@@ -14,11 +14,9 @@ import com.androix.AbstractMainActivity;
 import com.androix.NPersistence;
 import com.androix.U;
 
-import school.app.FragmentTemplateUI;
-
 
 public final class MainActivity extends AbstractMainActivity {
-    public static final String app = "template";
+    public static final String app = "school";
 
     public void init() {
         init(R.layout.activity_main);
@@ -39,7 +37,6 @@ public final class MainActivity extends AbstractMainActivity {
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
         super.onCreate(savedInstanceState);
         init();
-        //navigate to a fragment
         navigate(FragmentTemplateUI.class);
     }
 

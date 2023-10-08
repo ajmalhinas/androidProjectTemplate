@@ -1,4 +1,4 @@
-package template.searchUI;
+package school.searchUI;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,8 +12,8 @@ import com.androix.SearchUIModel;
 import java.sql.SQLException;
 import java.util.Map;
 
-import template.app.F;
-import template.app.R;
+import school.app.F;
+import school.app.R;
 
 /**
  * A generic search ui for entity models
