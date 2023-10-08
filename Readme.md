@@ -18,6 +18,7 @@ Tutorial - Developing a mobile application named school for Schools.
    2.1. Copy the FragmentTemplateUI from app and create the fragment StudentRegUI  and copy the layout fragmenttemplate_ui and create the layout for StudentRegUI The layout file named as studentreg_ui
         please note the naming convention for class file and layout file of the UI
    2.2. Refactor the id other details in studentreg_ui: ItemRegUI->StudentRegUI, change MainActivity navigation to navigate to the this newly created fragment
+   2.3  Customize the template layout to match the attributes of a Student Index Number, First Name, Last Name, Address, Age
    
 
 
