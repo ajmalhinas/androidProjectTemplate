@@ -1,0 +1,73 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 33
+    buildToolsVersion '30.0.2'
+
+    defaultConfig {
+        applicationId "template.app"
+        minSdkVersion 16
+        targetSdkVersion 33
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        debug {
+            buildConfigField("long", "BUILD_TIME", System.currentTimeMillis().toString())
+        }
+        release {
+            buildConfigField("long", "BUILD_TIME", System.currentTimeMillis().toString())
+        }
+    }
+
+    compileOptions {
+        coreLibraryDesugaringEnabled true
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:1.1.5")
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.navigation:navigation-fragment:2.3.2'
+    implementation 'androidx.navigation:navigation-ui:2.3.2'
+    implementation 'androidx.room:room-runtime:2.2.2'
+    implementation 'com.google.android.gms:play-services-location:15.0.1'
+    implementation ('eu.livotov.labs.android:CAMView:2.0.1@aar') {transitive=true} // used for QRScanner
+    implementation 'androidmads.library.qrgenearator:QRGenearator:1.0.3' // used for QRGenerator
+    implementation 'com.google.apis:google-api-services-drive:v3-rev136-1.25.0' // used for google drive
+    implementation 'com.google.android.gms:play-services-auth:20.6.0' // used for google drive
+    implementation 'com.google.api-client:google-api-client-android:1.31.0'
+    implementation files('../libs/androix.jar')
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+}
+
+android {
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/LICENSE.md'
+        exclude 'META-INF/license.md'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/NOTICE.md'
+        exclude 'META-INF/notice.md'
+        exclude 'META-INF/ASL2.0'
+        //   exclude 'META-INF/jersey-module-version'
+        exclude("META-INF/*.kotlin_module")
+    }
+}

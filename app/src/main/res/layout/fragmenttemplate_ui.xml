@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ItemRegUI"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ItemRegUI">
+
+    <LinearLayout
+        android:id="@+id/linearLayout11"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/item_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:hint="Item Code"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/item_itemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:hint="Item Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/category_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:hint="Category Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/org_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:hint="Supplier Name"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/item_disc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:hint="Item Disc"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout13"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout11"
+        tools:layout_editor_absoluteX="1dp">
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/find"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Find" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout13"
+    >
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Clear" />
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Update" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

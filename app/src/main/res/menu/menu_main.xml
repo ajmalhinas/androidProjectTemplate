@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="template.app.MainActivity">
+
+    <item
+        android:id="@+id/action_samples"
+        android:orderInCategory="8"
+        android:title="TEMPLATE"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="10"
+        android:title="SETTINGS"
+        app:showAsAction="never" />
+</menu>
