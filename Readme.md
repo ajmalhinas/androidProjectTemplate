@@ -19,6 +19,11 @@ Tutorial - Developing a mobile application named school for Schools.
         please note the naming convention for class file and layout file of the UI
    2.2. Refactor the id other details in studentreg_ui: ItemRegUI->StudentRegUI, change MainActivity navigation to navigate to the this newly created fragment
    2.3  Customize the template layout to match the attributes of a Student Index Number, First Name, Last Name, Address, Age
+
+3. Writing my first Action
+   3.1. Create the action class StudentRegUIFind  in actions package of your project and extend it from FBaseAction
+        Here framework automatically binds your action to the find button of the StudentRegUI by following the naming convention <UIName><buttonId>  for action. 
+
    
 
 
