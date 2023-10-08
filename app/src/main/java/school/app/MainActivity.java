@@ -37,7 +37,7 @@ public final class MainActivity extends AbstractMainActivity {
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
         super.onCreate(savedInstanceState);
         init();
-        navigate(FragmentTemplateUI.class);
+        navigate(StudentRegUI.class);
     }
 
 

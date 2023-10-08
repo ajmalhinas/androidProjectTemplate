@@ -14,8 +14,11 @@ Tutorial - Developing a mobile application named school for Schools.
 
    Build and veryfy your changes are working. If necessary revalidate cache in andrioid studio
 
-2.
-
+2. Creating my first UI (Fragment)
+   2.1. Copy the FragmentTemplateUI from app and create the fragment StudentRegUI  and copy the layout fragmenttemplate_ui and create the layout for StudentRegUI The layout file named as studentreg_ui
+        please note the naming convention for class file and layout file of the UI
+   2.2. Refactor the id other details in studentreg_ui: ItemRegUI->StudentRegUI, change MainActivity navigation to navigate to the this newly created fragment
+   
 
 
 
