@@ -2,11 +2,11 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/StudentRegUI"
+    android:id="@+id/ItemRegUI"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".StudentRegUI">
+    tools:context=".ItemRegUI">
 
     <LinearLayout
         android:id="@+id/linearLayout11"
@@ -18,7 +18,7 @@
         tools:ignore="MissingConstraints">
 
         <EditText
-            android:id="@+id/item_id"
+            android:id="@+id/indexNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
@@ -28,11 +28,11 @@
             android:layout_marginRight="24dp"
             android:layout_marginBottom="10dp"
             android:ems="10"
-            android:hint="Item Code"
-            android:inputType="number" />
+            android:hint="Index number"
+            android:inputType="text"/>
 
         <EditText
-            android:id="@+id/item_itemName"
+            android:id="@+id/firstName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
@@ -42,11 +42,11 @@
             android:layout_marginRight="24dp"
             android:layout_marginBottom="10dp"
             android:ems="10"
-            android:hint="Item Name"
+            android:hint="First Name"
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/category_name"
+            android:id="@+id/lastName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
@@ -56,11 +56,11 @@
             android:layout_marginRight="24dp"
             android:layout_marginBottom="10dp"
             android:ems="10"
-            android:hint="Category Name"
+            android:hint="Last Name"
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/org_name"
+            android:id="@+id/address"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
@@ -70,12 +70,12 @@
             android:layout_marginRight="24dp"
             android:layout_marginBottom="10dp"
             android:ems="10"
-            android:hint="Supplier Name"
+            android:hint="Address"
             android:importantForAutofill="no"
-            android:inputType="textPersonName" />
+            android:inputType="textPostalAddress" />
 
         <EditText
-            android:id="@+id/item_disc"
+            android:id="@+id/age"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
@@ -85,7 +85,7 @@
             android:layout_marginRight="24dp"
             android:layout_marginBottom="10dp"
             android:ems="10"
-            android:hint="Item Disc"
+            android:hint="Age"
             android:inputType="numberDecimal" />
     </LinearLayout>
 
@@ -120,7 +120,7 @@
         android:orientation="horizontal"
         android:weightSum="2"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout13"
-    >
+        >
 
         <Button
             android:id="@+id/clear"
