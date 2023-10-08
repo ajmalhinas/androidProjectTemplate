@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="template.app">   <application
+    package="school.app">   <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -13,7 +13,7 @@
 
 
         <activity
-            android:name="template.app.MainActivity"
+            android:name="school.app.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar"
             android:exported="true">
@@ -24,7 +24,7 @@
             </intent-filter>
         </activity>
         <receiver
-            android:name="template.app.InitSystemStartupServices"
+            android:name="school.app.InitSystemStartupServices"
             android:enabled="true"
             android:exported="true"
             android:permission="android.permission.RECEIVE_BOOT_COMPLETED">

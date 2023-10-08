@@ -1,4 +1,4 @@
-package template.app;
+package school.app;
 
 import com.androix.AbstractRegistration;
 

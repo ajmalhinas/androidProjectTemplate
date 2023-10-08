@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 
 import com.androix.Fragmentx;
 
-import template.app.R;
+import school.app.R;
 
 public class FragmentTemplateUI extends Fragmentx {
     @Override

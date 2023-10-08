@@ -1,4 +1,4 @@
-package template.app;
+package school.app;
 
 import android.app.Activity;
 import android.content.SharedPreferences;

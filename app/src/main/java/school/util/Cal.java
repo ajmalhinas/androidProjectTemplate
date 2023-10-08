@@ -1,8 +1,8 @@
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+ * To change this school, choose Tools | Templates
+ * and open the school in the editor.
  */
-package template.util;
+package school.util;
 
 import java.math.BigDecimal;
 
