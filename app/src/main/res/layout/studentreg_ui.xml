@@ -32,7 +32,7 @@
             android:inputType="text"/>
 
         <EditText
-            android:id="@+id/firstName"
+            android:id="@+id/string_firstName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"

@@ -22,9 +22,12 @@ Tutorial - Developing a mobile application named school for Schools.
 
 3. Writing my first Action
    3.1. Create the action class StudentRegUIFind  in actions package of your project and extend it from FBaseAction
-        Here framework automatically binds your action to the find button of the StudentRegUI by following the naming convention <UIName><buttonId>  for action. 
+        Here framework automatically binds your action to the find button of the StudentRegUI by following the naming convention <UIName><buttonId>  for action.
 
-   
+4. Reading data from UI and show that in the message
+   To read data from view (UI), the field ids must follow the convention <ClassNameInFirstLetterSmall>_<identifier>
+   4.1 Reading values from view as basic data type values such as String, Integer etc.
+       Change the field id firstName -> string_firstName
 
 
 
