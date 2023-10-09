@@ -18,7 +18,7 @@
         tools:ignore="MissingConstraints">
 
         <EditText
-            android:id="@+id/indexNumber"
+            android:id="@+id/string_index"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
@@ -46,7 +46,7 @@
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/lastName"
+            android:id="@+id/string_lastName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
@@ -60,7 +60,7 @@
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/address"
+            android:id="@+id/string_address"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
@@ -75,7 +75,7 @@
             android:inputType="textPostalAddress" />
 
         <EditText
-            android:id="@+id/age"
+            android:id="@+id/integer_age"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
