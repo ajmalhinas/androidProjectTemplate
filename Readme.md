@@ -42,6 +42,13 @@ Tutorial - Developing a mobile application named school for Schools.
    6.2 To bind Student model to the view, Refactor (rename) the field ids in the layout file studentreg_ui to reflect the Class name and the attributes names of the Student model
        Use the format <ClassNameInFirstLetterSmall>_<identifier> E.g. string_index -> student_index
        Use a similar technique to clear the view
+
+7. Save (Persist) data to database
+   7.1 Write the table definition of the student model in the assests/school.sql file.
+       Table name is <ClassNameInFirstLetterSmall>
+       A long id field must be defined because that the Student model is derived from Identifier model
+   7.2 Remove the app from device and rerun the application. Now you can observe the student table is automatically created by the framework, using the database inspector 
+
        
   
 
