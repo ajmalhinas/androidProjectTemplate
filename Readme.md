@@ -41,6 +41,7 @@ Tutorial - Developing a mobile application named school for Schools.
        All models must extend the Identifiable class or one of its derived class. It gives some inherited attributes to the model class
    6.2 To bind Student model to the view, Refactor (rename) the field ids in the layout file studentreg_ui to reflect the Class name and the attributes names of the Student model
        Use the format <ClassNameInFirstLetterSmall>_<identifier> E.g. string_index -> student_index
+       Use a similar technique to clear the view
        
   
 
