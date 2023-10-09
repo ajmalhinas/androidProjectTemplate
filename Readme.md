@@ -50,6 +50,8 @@ Tutorial - Developing a mobile application named school for Schools.
    7.2 Remove the app from device and rerun the application. Now you can observe the student table is automatically created by the framework, using the database inspector
    7.3 Oops index is a sql keyword. Refactor index -> indexNo
        Now you can inspect the Student table in the school db
+   7.4 Create the first save action to save Student
+       All actions which need to save data must be derived class of SaveAction therefore create a action StudentRegUISave and extend it from SaveAction
        
 
        
