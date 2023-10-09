@@ -2,14 +2,12 @@ package school.actions;
 
 import com.androix.FBaseAction;
 
+import school.model.Student;
+
 public class StudentRegUIClear extends FBaseAction {
     @Override
     public void execute() throws Exception {
-        updateViewModel("String_index", "");
-        updateViewModel("String_firstName", "");
-        updateViewModel("String_lastName", "");
-        updateViewModel("String_address", "");
-        updateViewModel("Integer_age", null);
+        updateViewModel("Student", null);
         addMessage("i18n", "View is cleared");
     }
 }
