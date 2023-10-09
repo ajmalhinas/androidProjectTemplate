@@ -30,6 +30,11 @@ Tutorial - Developing a mobile application named school for Schools.
        Change the field id firstName -> string_firstName
        Similarly you can read other fields also
 
+5. Updating View
+   5.1 Writing the clear action
+       The StudentRegUIClear action is automatically bound to the clear action by the framework. We use it here to demonstrate how to update view.
+       Bugs: The action may not work due to the bugs in android studio. Build project or try reloading the files or invalidating the cache in android studio
+
 
 
 
