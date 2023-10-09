@@ -47,7 +47,10 @@ Tutorial - Developing a mobile application named school for Schools.
    7.1 Write the table definition of the student model in the assests/school.sql file.
        Table name is <ClassNameInFirstLetterSmall>
        A long id field must be defined because that the Student model is derived from Identifier model
-   7.2 Remove the app from device and rerun the application. Now you can observe the student table is automatically created by the framework, using the database inspector 
+   7.2 Remove the app from device and rerun the application. Now you can observe the student table is automatically created by the framework, using the database inspector
+   7.3 Oops index is a sql keyword. Refactor index -> indexNo
+       Now you can inspect the Student table in the school db
+       
 
        
   

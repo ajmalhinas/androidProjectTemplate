@@ -8,7 +8,7 @@ public class StudentRegUIFind extends FBaseAction {
     @Override
     public void execute() throws Exception {
         Student s= (Student) getViewModel("Student");
-        addMessage("msg","Details:"+s.getIndex()+"\n"+
+        addMessage("msg","Details:"+s.getIndexNo()+"\n"+
                 s.getFName()+" "+s.getFName()+" "+s.getAddress()+" "+s.getAge());
     }
 }
