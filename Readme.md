@@ -28,6 +28,7 @@ Tutorial - Developing a mobile application named school for Schools.
    To read data from view (UI), the field ids must follow the convention <ClassNameInFirstLetterSmall>_<identifier>
    4.1 Reading values from view as basic data type values such as String, Integer etc.
        Change the field id firstName -> string_firstName
+       Similarly you can read other fields also
 
 
 
