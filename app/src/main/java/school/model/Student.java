@@ -3,18 +3,18 @@ package school.model;
 import com.androix.model.Identifiable;
 
 public class Student extends Identifiable {
-    private String index;
+    private String indexNo;
     private String fName;
     private String lName;
     private String address;
     private Integer age;
 
-    public String getIndex() {
-        return index;
+    public String getIndexNo() {
+        return indexNo;
     }
 
-    public void setIndex(String index) {
-        this.index = index;
+    public void setIndexNo(String indexNo) {
+        this.indexNo = indexNo;
     }
 
     public String getFName() {

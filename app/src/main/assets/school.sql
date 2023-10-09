@@ -22,7 +22,7 @@ CREATE TABLE dbconf (
 CREATE TABLE student (
 -- All tables must have this id field
     id        BIGINT (20)    NOT NULL,
-    index     VARCHAR (50)   DEFAULT NULL,
+    indexNo     VARCHAR (50) DEFAULT NULL,
     fName     VARCHAR (100)  DEFAULT NULL,
     lName     VARCHAR (100)  DEFAULT NULL,
     address   VARCHAR (255)  DEFAULT NULL,
