@@ -36,6 +36,17 @@ Tutorial - Developing a mobile application named school for Schools.
        Bugs: The action may not work due to the bugs in android studio. Build project or try reloading the files or invalidating the cache in android studio
        Using similar technique, you can change this as a clear method of StudentRegUI
 
+6. Using a model to simplify actions
+   6.1 Create a Student model in the model package with all the required attributes appropriate getters and setters
+       All models must extend the Identifiable class or one of its derived class. It gives some inherited attributes to the model class
+   6.2 To bind Student model to the view, Refactor (rename) the field ids in the layout file studentreg_ui to reflect the Class name and the attributes names of the Student model
+       Use the format <ClassNameInFirstLetterSmall>_<identifier> E.g. string_index -> student_index
+       
+  
+
+
+       
+
 
 
 
