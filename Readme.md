@@ -1,4 +1,8 @@
-This is template project for android MDD framework extension
+Last tested: Nexus 6 API 30. API>30 has some issues
+
+
+
+his is template project for android MDD framework extension
 Follow the below tutorial to rename this template and create your own project 
 
 Tutorial - Developing a mobile application named school for Schools.
